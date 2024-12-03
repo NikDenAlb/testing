@@ -2,13 +2,16 @@ package com.gridnine.testing;
 
 import java.util.List;
 
+/**
+ * Verification code
+ */
 public class Main {
     public static void main(String[] args) {
         List<Flight> flights = FlightBuilder.createFlights();
 
-        FlightFilter futureFlightFilter = new FlightFilterFuture();
-        FlightFilter brokenSegmentFlightFilter = new FlightFilterBrokenSegment();
-        FlightFilterSetting groundLimitFlightFilter = new FlightFilterGroundTimeNoMore();
+        FlightFilterFuture futureFlightFilter = new FlightFilterFuture();
+        FlightFilterBrokenSegment brokenSegmentFlightFilter = new FlightFilterBrokenSegment();
+        FlightFilterGroundTimeNoMore groundLimitFlightFilter = new FlightFilterGroundTimeNoMore();
 
         System.out.println("All flights:");
         flights.forEach(System.out::println);
