@@ -1,4 +1,4 @@
-package com.gridnine.testing.exeptions;
+package com.gridnine.testing.exception;
 
 /**
  * Exception for incorrect input time

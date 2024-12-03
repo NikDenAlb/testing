@@ -1,4 +1,4 @@
-package com.gridnine.testing.exeptions;
+package com.gridnine.testing.exception;
 
 /**
  * Exception for negative wait time between segments. Does not applies to broken segments.

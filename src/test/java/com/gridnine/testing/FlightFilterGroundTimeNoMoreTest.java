@@ -1,7 +1,7 @@
 package com.gridnine.testing;
 
-import com.gridnine.testing.exeptions.IncorrectTimeException;
-import com.gridnine.testing.exeptions.NegativeWaitException;
+import com.gridnine.testing.exception.IncorrectTimeException;
+import com.gridnine.testing.exception.NegativeWaitException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

@@ -1,7 +1,7 @@
 package com.gridnine.testing;
 
-import com.gridnine.testing.exeptions.IncorrectTimeException;
-import com.gridnine.testing.exeptions.NegativeWaitException;
+import com.gridnine.testing.exception.IncorrectTimeException;
+import com.gridnine.testing.exception.NegativeWaitException;
 
 import java.time.Duration;
 import java.util.List;
